@@ -1,13 +1,49 @@
 .product {
     width: 300px;
     height: 510px;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+    position: relative;
+    
+
 }
 
 .product img {
     height: 286px;
     width: 286px;
+    border-radius: 8px;
+    margin: 7px ;
 }
 
-.product-name {
+.product-info {
+    margin: 0px 14px;
     
+}
+.product-info a{
+    margin-bottom: 0;
+    margin-top: -8px;
+}
+.product-name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 7px;
+    line-height: 25px;
+    padding-left: 10px;
+
+}
+
+.btn-cart {
+    width: 100%;
+    background: cornsilk;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.btn-cart:hover {
+    background: orange;
 }
