@@ -16,12 +16,12 @@
 }
 
 .product-info {
-    margin: 0px 14px;
+    margin: 10px  14px 10px 14px;
     
 }
-.product-info a{
+.product-info p{
     margin-bottom: 0;
-    margin-top: -8px;
+    margin-top: 4px;
 }
 .product-name {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -36,14 +36,21 @@
 
 .btn-cart {
     width: 100%;
-    background: cornsilk;
+    background: rgb(206, 177, 62);
     border: none;
     border-radius: 0px 0px 8px 8px;
     position: absolute;
     bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .btn-cart:hover {
     background: orange;
+}
+
+.btn-cart .btn-text {
+    margin-right: 5px;
 }
